@@ -7,4 +7,18 @@
 
 
 ## Note on Platform
-Due to technical limitations with Android emulator connectivity, this activity was tested and demonstrated on Windows desktop platform. 
+This Flutter Weather App was developed and tested on **Windows (Chrome browser)** due to technical limitations with Android emulator connectivity and device configuration.
+
+The chrome browser testing demonstrates all required functionality:
+  - Successful API integration with OpenWeatherMap
+  - Real-time data fetching using HTTP package
+  - JSON parsing and data modeling
+  - Error handling (network errors, invalid cities)
+  - Loading states and user feedback
+  - Clean UI implementation
+
+**Technical Implementation:**
+The application successfully demonstrates networking concepts, API integration, and asynchronous programming in Flutter/Dart, which are the core learning objectives of this activity regardless of the deployment platform.
+
+**Future Development:**
+With proper Android development environment setup, this same codebase can be deployed to Android devices without any code modifications, as Flutter applications are inherently cross-platform.
